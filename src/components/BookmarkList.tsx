@@ -127,7 +127,7 @@ export default function BookmarkList({
                   <input type="hidden" name="id" value={item.id} />
                   <button
                     type="submit"
-                    className="w-full text-sm font-medium text-red-600 hover:text-red-700 bg-red-50 hover:bg-red-100 px-3 py-2 rounded-lg transition-colors"
+                    className="w-full text-sm font-medium text-red-600 hover:text-red-700 bg-red-50 hover:bg-red-100 px-3 py-2 rounded-lg transition-colors cursor-pointer"
                   >
                     Delete
                   </button>

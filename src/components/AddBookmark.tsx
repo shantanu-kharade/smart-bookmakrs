@@ -11,7 +11,7 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="h-11 min-h-[44px] bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium text-sm whitespace-nowrap shadow-sm hover:shadow-md"
+      className="h-11 min-h-[44px] bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors font-medium text-sm whitespace-nowrap shadow-sm hover:shadow-md cursor-pointer"
     >
       {pending ? "Adding..." : "Add Bookmark"}
     </button>

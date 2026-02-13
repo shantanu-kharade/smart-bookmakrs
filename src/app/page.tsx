@@ -35,7 +35,7 @@ export default async function Home() {
           <form action={signOut}>
             <button
               type="submit"
-              className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+              className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors cursor-pointer"
             >
               Sign Out
             </button>
