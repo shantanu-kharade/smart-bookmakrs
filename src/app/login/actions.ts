@@ -17,16 +17,16 @@ export async function signInWithGoogle() {
     })
 
     if (error) {
-    console.error(error)
-    return redirect('/login?message=Could not authenticate user')
-  }
 
-  return redirect(data.url)
+        return redirect('/login?message=Could not authenticate user')
+    }
+
+    return redirect(data.url)
 }
 
 export async function signOut() {
-  const supabase = await createClient()
-  await supabase.auth.signOut()
-  return redirect('/login')
+    const supabase = await createClient()
+    await supabase.auth.signOut()
+    return redirect('/login')
 }
 
