@@ -22,8 +22,8 @@ export default function UpdateBookmark({ bookmark }: { bookmark: Bookmark }) {
         <>
             <button
                 onClick={() => setIsOpen(true)}
-                className="flex-1 text-sm font-medium text-blue-600 hover:text-blue-700 bg-blue-50 hover:bg-blue-100 px-3 py-2 rounded-lg 
-                transition-colors min-h-[44px] cursor-pointer" >
+                className="w-1/2 text-sm font-medium text-blue-600 hover:text-blue-700 bg-blue-50
+                     hover:bg-blue-100 px-3 py-2 rounded-lg transition-colors cursor-pointer" >
                 Edit
             </button>
 

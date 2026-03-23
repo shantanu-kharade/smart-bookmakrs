@@ -20,7 +20,7 @@ export default function LoginPage() {
                     <form action={signInWithGoogle}>
                         <button
                             type="submit"
-                            className="w-full flex items-center justify-center gap-3 border border-gray-300 rounded-lg px-4 py-3 text-gray-700 font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors shadow-sm"
+                            className="cursor-pointer w-full flex items-center justify-center gap-3 border border-gray-300 rounded-lg px-4 py-3 text-gray-700 font-medium hover:bg-gray-50 hover:border-gray-400 transition-colors shadow-sm"
                         >
                             {/* Google Icon */}
                             <svg

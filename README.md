@@ -64,15 +64,3 @@ Determined the issue was caused by React Strict Mode triggering duplicate login 
 
 
 
-## AI Assistance
-
-AI tools were used during development as permitted by the assignment.
-
-Specifically, AI assisted with:
-
-- Brainstorming architectural approaches (e.g., Supabase Native vs. custom API layer)
-- Generating initial boilerplate for Server Actions and Supabase integrations
-- Debugging framework-specific issues (OAuth state errors, middleware changes, WebSocket configuration)
-- Reviewing SQL syntax for Row Level Security (RLS) policies
-
-All final implementation decisions, security configurations, and debugging resolutions were validated, tested, and integrated independently.

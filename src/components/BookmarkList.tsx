@@ -86,7 +86,7 @@ export default function BookmarkList({
 
     return (
         <div className="w-full">
-            <div className="flex items-center justify-center gap-2 text-xs text-green-600 font-medium mb-8 bg-green-50 rounded-lg py-2 px-4 
+            <div className=" items-center justify-center gap-2 text-xs text-green-600 font-medium mb-8 bg-green-50 rounded-lg py-2 px-4 
             inline-flex">
                 <span className="w-2 h-2 bg-green-600 rounded-full animate-pulse"></span>
                 Your BookMarks
@@ -104,14 +104,14 @@ export default function BookmarkList({
                         <div
                             key={item.id}
                             className="group bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md hover:border-gray-300 
-                            transition-all overflow-hidden p-5 flex flex-col">
+                            transition overflow-hidden p-5 flex flex-col">
                             {/* Link Section */}
                             <a
                                 href={item.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 font-semibold text-base mb-3 hover:text-blue-700 hover:underline line-clamp-2 
-                                break-words">
+                                wrap-break-words">
 
                                 {item.title}
                             </a>
